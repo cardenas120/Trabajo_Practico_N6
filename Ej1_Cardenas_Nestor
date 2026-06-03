@@ -1,0 +1,20 @@
+Algoritmo ejercicio_1
+	DEFINIR prdunto1,producto2,producto3 Como Real;
+	ESCRIBIR "ingresasr el primer producto:";
+	leer producto1;
+	escribir"ingresar elsegundo  producto:";
+	leer producto2;
+	escribir"ingresar terser  producto:";
+	leer producto3;
+	definir iva,preciototal como real;
+	preciototal=producto1+producto2+producto2
+	iva =(preciototal*0.21)+preciototal;
+	escribir "el total con el 21% de iva es:",iva;
+	definir impuesto Como Real;
+	impuesto = (iva*0.08)+iva;
+	escribir"el total del iva + imuesto adicional es: ",impuesto;
+	Definir descuento como real;
+	descuento = impuesto-(impuesto*0.05);
+	escribir "el total con descuento es: ",descuento;
+fin proceso
+

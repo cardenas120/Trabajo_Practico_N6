@@ -1,0 +1,19 @@
+Algoritmo  Ejercicio_2
+	Definir precioBase, iva, aduana, subtotal1, subtotal2, descuento, precioFinal Como Real
+	Escribir "Ingrese el precio base del componente:"
+	Leer precioBase
+	iva <- precioBase * 0.21
+	subtotal1 <- precioBase + iva
+	aduana <- subtotal1 * 0.08
+	subtotal2 <- subtotal1 + aduana
+	descuento <- subtotal2 * 0.05
+	precioFinal <- subtotal2 - descuento
+	Escribir "Desglose de importación:"
+	Escribir "Precio Base: $", precioBase
+	Escribir "IVA (21%): $", iva
+	Escribir "Tasa Aduana (8%): $", aduana
+	Escribir "Subtotal acumulado: $", subtotal2
+	Escribir "Descuento Efectivo (5%): $", descuento
+	Escribir "Precio Final Neto en Efectivo: $", precioFinal
+	
+FinAlgoritmo
